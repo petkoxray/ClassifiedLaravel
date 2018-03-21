@@ -8,21 +8,12 @@
                     <div class="card-header">Dashboard</div>
 
                     <div class="card-body">
-                        <button id="button">click me</button>
-                        You are logged in!
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-@endsection
-
-@section('script')
-    <script>
-        $('#button').on('click', function () {
-            console.log('hi');
-        })
-    </script>
 @endsection
 
 
